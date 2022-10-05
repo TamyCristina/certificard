@@ -97,3 +97,32 @@ body {
   color: #ffffff;
   border: 2px solid #f7f7f7;
 }
+
+.footer {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+.contato {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.contato-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.contato-item a {
+  list-style: none;
+  font-weight: 700;
+  font-size: 28px;
+}
